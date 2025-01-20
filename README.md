@@ -1,5 +1,7 @@
 # Twilio SKO 2025 Hackathon: Conversation Relay & Flex
 
+Note: Added different GPT services JS files in apps/convRelayApp/services for GPT-4o & DeepSeek. Setup notes are detailed in the [README](/apps/convRelayApp/README.md) file for the CR App.
+
 This repository contains prototype packages for Twilio Conversation Relay (CR) and a Flex Plugin that offers agent assistance to a customer engaging in the CR self-service flow.
 
 These examples are built upon Twilio's Serverless Functions and generally require utilization of the Twilio CLI and serverless runtime plugin.  Reference the section on "Prerequisites" for more details.
