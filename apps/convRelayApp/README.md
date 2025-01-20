@@ -1,6 +1,7 @@
 # Conversation Relay Sample App, Low code with Airtable
 
-> Note: This is the README from the [original work](https://github.com/midshipman/owl-shoes) by Hao Wang.  
+> Note: This is the README from the [original work](https://github.com/midshipman/owl-shoes) by Hao Wang.
+> Note 2: To use DeepSeek LLM, rename gpt-service-deepseek.js to gpt-service.js and replace 'deepseek-api-key' on line 33 with your own DeepSeek API Key.
 
 ------------------
 
