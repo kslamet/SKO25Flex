@@ -12,7 +12,7 @@ It is also important to consider different factors when choosing the right LLM, 
 | ------------- | ------------- | ------------ |
 | Brand | OpenAI is the most recognized LLM globally | Deepseek is popular in North Asia |
 | Access | Restricted for [these countries](https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories) | No specific country restrictions |
-| Performance | Best-in-class, tolerant prompt engineering | Functional, might require stricter prompt engineering |
+| Performance | Best-in-class, tolerant prompt engineering | Functional with some quirks (e.g. commas when processing unit numbers on address), might require stricter prompt engineering |
 | Cost | High | ~29.8x [lower cost](https://docsbot.ai/models/compare/gpt-4o/deepseek-v3#pricing) |
 | Headquartered in | San Francisco, CA, USA | Hangzhou, China |
 
