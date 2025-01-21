@@ -1,10 +1,20 @@
-# Twilio SKO 2025 Hackathon: Conversation Relay & Flex
+# Exploring Conversation Relay + Bring Your Own LLM
 
 > Note: Added different GPT services JS files in apps/convRelayApp/services for GPT-4o & DeepSeek. Setup notes are detailed in the [README](/apps/convRelayApp/README.md) file for the CR App.
 
 This repository contains prototype packages for Twilio Conversation Relay (CR) and a Flex Plugin that offers agent assistance to a customer engaging in the CR self-service flow.
 
 These examples are built upon Twilio's Serverless Functions and generally require utilization of the Twilio CLI and serverless runtime plugin.  Reference the section on "Prerequisites" for more details.
+
+It is also important to consider different factors for customers to choose the right LLM for their use case:
+
+| Consideration Factor | OpenAI GPT-4o | Deepseek v3 |
+| ------------- | ------------- | ------------ |
+| Brand | OpenAI is the most recognized LLM globally | Deepseek is popular in North Asia |
+| Access | Restricted for [these countries](https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories) | No specific country restrictions |
+| Performance | Best-in-class, tolerant prompt engineering | Functional, might require stricter prompt engineering |
+| Cost | High | ~29.8x [lower cost](https://docsbot.ai/models/compare/gpt-4o/deepseek-v3#pricing) |
+| Headquartered in | San Francisco, CA, USA | Hangzhou, China |
 
 &nbsp;
 
