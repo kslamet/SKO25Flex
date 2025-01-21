@@ -6,7 +6,7 @@ This repository contains prototype packages for Twilio Conversation Relay (CR) a
 
 These examples are built upon Twilio's Serverless Functions and generally require utilization of the Twilio CLI and serverless runtime plugin.  Reference the section on "Prerequisites" for more details.
 
-It is also important to consider different factors when choosing the right LLM, here is a quick consideration. Regardless of choice of LLM, this repo showcases the ease of switching between different LLMs:
+It is also important to consider different factors when choosing the right LLM, here is a quick consideration:
 
 | Consideration Factor | OpenAI GPT-4o | Deepseek v3 |
 | ------------- | ------------- | ------------ |
@@ -15,6 +15,8 @@ It is also important to consider different factors when choosing the right LLM, 
 | Performance | Best-in-class, tolerant prompt engineering | Functional, might require stricter prompt engineering |
 | Cost | High | ~29.8x [lower cost](https://docsbot.ai/models/compare/gpt-4o/deepseek-v3#pricing) |
 | Headquartered in | San Francisco, CA, USA | Hangzhou, China |
+
+Importantly, this repo is meant to illustrate how Twilio Conversation Relay supports ease of switching between different LLMs.
 
 &nbsp;
 
